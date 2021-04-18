@@ -1,10 +1,10 @@
 <?php
 
 // Llamando a los campos
-$nombre = $_POST [ 'nombre'];
-$nombre = $_POST [ 'correo'];
-$nombre = $_POST [ 'telefono'];
-$nombre = $_POST [ 'mensaje'];
+$nombre = $_POST [ "nombre"];
+$nombre = $_POST [ "correo"];
+$nombre = $_POST [ "telefono"];
+$nombre = $_POST [ "mensaje"];
 
 
 // datos para el correo

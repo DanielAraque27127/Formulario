@@ -12,7 +12,7 @@
 
 body {
     background: #DBDBDB;
-    font-family: 'Open sans';
+    
 }
 
 /* FORMULARIO =================================== */
@@ -68,6 +68,7 @@ body {
 
 .info_title {
     margin-bottom: 60px;
+    
 }
 
 .info_title span {
@@ -78,8 +79,10 @@ body {
 }
 
 .info_title h2 {
+    font-family: 'Patua One', cursive;
     font-size: 35px;
     text-align: center;
+    
 }
 
 .info_items p {

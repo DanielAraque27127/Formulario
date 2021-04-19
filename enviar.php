@@ -17,7 +17,7 @@ $carta .= "telefono: $telefono \n"
 $carta .= "mensaje: $mensaje";
 
 //enviando mensaje
-mail($destinatario, $asunto, $carta);
+$mail = mail($destinatario, $asunto, $carta);
 
 
 ?>
